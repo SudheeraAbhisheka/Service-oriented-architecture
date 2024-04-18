@@ -1,0 +1,26 @@
+[
+  {
+    "Name": "ADDTwoNumbers",
+    "Description": "Adding two Numbers",
+    "APIEndpoint": null,
+    "OperandType": null
+  },
+  {
+    "Name": "ADDThreeNumbers",
+    "Description": "Adding three Numbers",
+    "APIEndpoint": null,
+    "OperandType": null
+  },
+  {
+    "Name": "MulTwoNumbers",
+    "Description": "Multiplying two Numbers",
+    "APIEndpoint": null,
+    "OperandType": null
+  },
+  {
+    "Name": "MulThreeNumbers",
+    "Description": "Multiplying three Numbers",
+    "APIEndpoint": null,
+    "OperandType": null
+  }
+]

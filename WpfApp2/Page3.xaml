@@ -1,0 +1,29 @@
+﻿<Page x:Class="WpfApp2.Page3"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp2"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page3">
+
+    <Grid>
+        <TextBlock x:Name="textBoxName1" HorizontalAlignment="Left" Margin="170,163,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="194" Height="16"/>
+        <TextBlock x:Name="textBoxName2" HorizontalAlignment="Left" Margin="170,210,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="194" Height="16"/>
+        <TextBlock x:Name="textBoxName3" HorizontalAlignment="Left" Margin="170,250,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="194" Height="16"/>
+        <TextBlock x:Name="textBoxName4" HorizontalAlignment="Left" Margin="170,300,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="194" Height="16"/>
+        <Button x:Name="Button1" Content="Select" HorizontalAlignment="Left" Margin="541,161,0,0" VerticalAlignment="Top" Height="18" Width="58" Click="Button1_Click"/>
+        <Button x:Name="Button2" Content="Select" HorizontalAlignment="Left" Margin="541,204,0,0" VerticalAlignment="Top" Height="18" Width="58" Click="Button2_Click"/>
+        <Button x:Name="Button3" Content="Select" HorizontalAlignment="Left" Margin="541,245,0,0" VerticalAlignment="Top" Height="17" Width="58" Click="Button3_Click"/>
+        <Button x:Name="Button4" Content="Select" HorizontalAlignment="Left" Margin="541,295,0,0" VerticalAlignment="Top" Height="18" Width="58" Click="Button4_Click"/>
+        <TextBlock x:Name="TextBlock1" HorizontalAlignment="Left" Margin="189,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-0.61,-1.091" Visibility="Hidden"><Run Text="Number1"/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:Name="TextBlock2" HorizontalAlignment="Left" Margin="367,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-0.61,-1.091" Visibility="Hidden"><Run Text="Number2"/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:Name="TextBlock3" HorizontalAlignment="Left" Margin="566,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-0.61,-1.091" Visibility="Hidden"><Run Text="Number3"/><LineBreak/><Run/></TextBlock>
+        <TextBox x:Name="Number1" HorizontalAlignment="Left" Margin="154,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Visibility="Hidden"/>
+        <TextBox x:Name="Number2" HorizontalAlignment="Center" Margin="0,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Visibility="Hidden"/>
+        <TextBox x:Name="Number3" HorizontalAlignment="Left" Margin="531,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Visibility="Hidden"/>
+        <TextBlock x:Name="Answer" HorizontalAlignment="Left" Margin="621,350,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="Answer" RenderTransformOrigin="0.723,0.122"/>
+
+    </Grid>
+</Page>

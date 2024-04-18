@@ -1,0 +1,33 @@
+[
+  {
+    "Name": "ADDTwoNumbers",
+    "Description": "Adding two Numbers",
+    "API endpoint": "http://localhost:port/ADDTwoNumbers",
+    "number of operands": 2,
+    "operand type": "integer"
+  },
+
+  {
+    "Name": "ADDThreeNumbers",
+    "Description": "Adding three Numbers",
+    "API endpoint": "http://localhost:port/ADDThreeNumbers",
+    "number of operands": 3,
+    "operand type": "integer"
+  },
+
+  {
+    "Name": "MulTwoNumbers",
+    "Description": "Multiplying two Numbers",
+    "API endpoint": "http://localhost:port/MulTwoNumbers",
+    "number of operands": 2,
+    "operand type": "integer"
+  },
+
+  {
+    "Name": "MulThreeNumbers",
+    "Description": "Multiplying three Numbers",
+    "API endpoint": "http://localhost:port/MulThreeNumbers",
+    "number of operands": 3,
+    "operand type": "integer"
+  }
+]
